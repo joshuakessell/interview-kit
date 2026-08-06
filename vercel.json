@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/bootstrap.sh" },
+    { "source": "/kit", "destination": "/bootstrap.sh" }
+  ]
+}
