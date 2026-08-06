@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(pnpm *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(vercel *)",
+      "Bash(tsc *)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(curl *)",
+      "Edit",
+      "Write",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Read(.env*)",
+      "Read(**/secrets/**)"
+    ]
+  }
+}

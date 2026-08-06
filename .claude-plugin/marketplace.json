@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jk",
+  "version": "2.0.0",
+  "description": "Joshua Kessell's timed-build interview marketplace: core wizard plus domain packs installed on demand per assignment",
+  "owner": { "name": "Joshua Kessell", "email": "hello@joshuakessell.com" },
+  "plugins": [
+    { "name": "interview-core", "description": "ALWAYS INSTALL. /kickoff wizard, /ship, /timecheck, rapid-scaffold, timeboxed-testing, frontend-design", "source": "./plugins/interview-core", "category": "development" },
+    { "name": "next",     "description": "Next.js App Router patterns for timed builds", "source": "./plugins/next", "category": "development" },
+    { "name": "postgres", "description": "Postgres provisioning + Drizzle wiring + Mongo-vs-Postgres talking points", "source": "./plugins/postgres", "category": "database" },
+    { "name": "mongo",    "description": "MongoDB Atlas fast path + modeling rules", "source": "./plugins/mongo", "category": "database" },
+    { "name": "spring",   "description": "Java Spring Boot rapid scaffold + H2-first DB strategy", "source": "./plugins/spring", "category": "development" },
+    { "name": "deploy",   "description": "Vercel, AWS/Bedrock, and JVM (Railway/Render) deployment playbooks", "source": "./plugins/deploy", "category": "deployment" }
+  ]
+}
